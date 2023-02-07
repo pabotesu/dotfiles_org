@@ -1,0 +1,28 @@
+configuration{
+ modi: "run,system:~/.script/rofi_system.sh";
+ hide-scrollbar: "true";
+ kb-cancel: "Escape,Control+bracketleft";
+ kb-mode-previous: "Shift+Left";
+ kb-mode-next: "Shift+Right";
+ filebrowser {
+      /** Directory the file browser starts in. */
+      directory: "/some/directory";
+      /**
+        * Sorting method. Can be set to:
+        *   - "name"
+        *   - "mtime" (modification time)
+        *   - "atime" (access time)
+        *   - "ctime" (change time)
+        */
+      sorting-method: "name";
+      /** Group directories before files. */
+      directories-first: true;
+ }
+
+ timeout {
+      delay:  15;
+      action: "kb-cancel";
+ }
+
+}
+@theme "android_notification.rasi"
