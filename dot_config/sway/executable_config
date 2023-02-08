@@ -78,7 +78,7 @@
 #-----------------#
 
     ## set backgraund-wallpaper
-    output "*" background /home/pabotesu/.config/sway/wallpaper.png fill
+    output "*" background /home/pabotesu/Pictures/Wallpaper/wallpaper.jpg fill
 
     ## set inner and outer gaps
     gaps outer 3
