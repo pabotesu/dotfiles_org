@@ -44,7 +44,7 @@ screenshots
 effect-blur=7x5
 effect-greyscale
 effect-vignette=0.1:0.4
-fade-in=0.3
+fade-in=0
 ignore-empty-password
 show-failed-attempts
 show-keyboard-layout
