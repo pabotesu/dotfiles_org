@@ -75,7 +75,7 @@
         }
     },
     "sway/language" : {
-        "format": "{}/韛"
+        "format": "{}/󰌌"
     },
     "wlr/taskbar": {
         "format": "{icon}",
@@ -111,7 +111,7 @@
         "tooltip": true
     },
     "memory": {
-        "format": "{}% ",
+        "format": "{}% 󰍛",
         "interval": 5
     },
     "temperature": {
@@ -126,7 +126,7 @@
 
     "disk": {
         "interval": 30,
-        "format": "{percentage_used}% "
+        "format": "{percentage_used}% 󰋊"
         //  "path": "/"
         //"on-click": ""
     },
@@ -134,7 +134,7 @@
     "network": {
         "interface": "eno1*", 
         "format-wifi": "{signalStrength}% ",
-        "format-ethernet": "{ifname} ",
+        "format-ethernet": "{ifname} 󰈀",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{bandwidthUpBits}▲ | {bandwidthDownBits}▼",
@@ -176,7 +176,7 @@
         "exec": "~/.script/player/mediaplayer.sh"
     },*/
     "custom/pacman": {
-        "format": " ・・{}",
+        "format": "󰮯 ・󰯉・{}",
         "interval": 3600,                     // every hour
         "exec": "checkupdates | wc -l",       // # of updates
         "exec-if": "exit 0",                  // always run; consider advanced run conditions
